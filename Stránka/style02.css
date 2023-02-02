@@ -124,12 +124,21 @@ html {
 }
 .btn-transparent{
     color: var(--midlight-color);
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.0);
     align-items: center;
     border-radius: 50px;
     padding: 4px 15px 7px 15px;
     margin-right: 10px;
     border: 1.5px solid  var(--midlight-color);
+}
+.btn-black{
+    color: var(--dark-color);
+    background-color: rgba(255, 255, 255, 0.0);
+    align-items: center;
+    border-radius: 50px;
+    padding: 4px 15px 7px 15px;
+    margin-right: 10px;
+    border: 1.5px solid  var(--dark-color);
 }
 
 /* contact-form */
@@ -261,9 +270,12 @@ textarea{
 }
 .intro-contact-text p{
     margin-top: 0;
-    margin-left: 5px;
-    margin-right: 85px;
+    margin-left: 1vw;
+    margin-right: 5vw;
     
+}
+.text01{
+    width: 5vw;
 }
 .my-interests{
     margin-top: 2.5vh;
@@ -428,7 +440,7 @@ textarea{
     height: 100vh;
 }
 .row {
-    margin-top: 8vh;
+    margin-top: 5vh;
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
@@ -460,19 +472,21 @@ textarea{
     text-align: center;
 }
 
+
 .your-project{
-    padding-top: 10vh;
+    padding-top: 8vh;
     display: block;
     text-align: center;
 }
 .your-project p{
     padding-top: 8vh;
+    padding-bottom: 6vh;
 }
 
 .work{
     margin-left: -7vw;
     margin-right: -7vw;
-    height: 100vh;
+    height: 140vh;
     width: 100vw;
     background-color: var(--midlight-color);
 }
@@ -521,21 +535,6 @@ textarea{
     margin-left: 20px;
     margin-right: 20px;
 }
-.dots {
-    padding-top: 10vh;
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .dot {
-    background-color: var(--light-color);
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    margin: 0 5px;
-  }
 
   .footer{
     margin-left: -7vw;
@@ -572,17 +571,6 @@ textarea{
     border-radius: 50%;
     margin: 0 20px;
   }
-
-  .footer-left-accestory{
-    position: absolute;
-    background-color: var(--light-color);
-    width: 90px;
-    height: 40px;
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
-    margin-bottom: 25px;
-    margin-left: -7vw;
-}
   
   
 
