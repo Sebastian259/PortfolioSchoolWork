@@ -1,0 +1,55 @@
+
+.expertise{
+    margin-left: -7vw;
+    margin-right: -7vw;
+    margin-top: 22vh;
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--light-color);
+}
+.exp-title{
+    padding-top: 10vh;
+    display: block;
+    text-align: center;
+}
+.exp-container{
+    margin-right: 7vw;
+    margin-left: 7vw;
+    margin-top: 10vh;
+    display: flex;
+}
+.exp-container-right{
+    margin-right: 0;
+}
+.percent{
+    margin-right: 0;
+}
+.exp-left{
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 3vh;
+}
+.exp-text{
+    display: flex;
+    margin-bottom: 2vh;
+}
+.exp-text p{
+    margin-left: 0;
+}
+.lvl-bar{
+    width: 37vw;
+    margin-left: 0;
+    border: 1px solid  var(--dark-color);
+    border-radius: 50px;
+}
+.curent-lvl{
+    height: 20px;
+    margin-left: 0;
+    background-color: var(--dark-color);
+    border-radius: 50px;
+}
+.exp-right{
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 3vh;
+}
