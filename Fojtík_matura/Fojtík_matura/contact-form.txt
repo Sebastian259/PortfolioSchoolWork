@@ -1,0 +1,13 @@
+name : Sebastian
+email : sebik.fojtik@gmail.com
+message : Test 01
+date : 15.02.2023 07:50:41
+____________________________________________________
+
+name : Sebo
+email : sebik.fojtik@gmail.com
+message : Toto je spravam, ktoru posielam ja 
+
+date : 17.02.2023 12:47:05
+____________________________________________________
+
