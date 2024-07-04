@@ -6,7 +6,7 @@ ____________________________________________________
 
 name : Sebo
 email : sebik.fojtik@gmail.com
-message : Toto je sprava, ktoru posielam ja 
+message : Test 02
 
 date : 17.02.2023 12:47:05
 ____________________________________________________
